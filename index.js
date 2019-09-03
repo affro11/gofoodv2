@@ -7,7 +7,7 @@ const uuidv4 = require('uuid/v4');
 var uuid = uuidv4();
 
 
-console.log('Regist Akun Gojek -> Redeem GOFOODNASGOR07\n');
+console.log('Regist Akun Gojek -> Redeem GOFOODSATE15\n');
 const phoneNumber = readlineSync.question('Masukan No Hp: ');
 
 const genUniqueId = length =>
@@ -127,7 +127,7 @@ const functionRedeem = (accessToken, uuid, uniqid) => new Promise((resolve, reje
 	const url = 'https://api.gojekapi.com/go-promotions/v1/promotions/enrollments';
 
 	const boday = {
-		"promo_code":"GOFOODNASGOR07"
+		"promo_code":"GOFOODSATE15"
 };
 
 	fetch (url, {
